@@ -1,0 +1,12 @@
+auto lo
+iface lo inet loopback
+
+auto eth1
+iface eth1 inet manual
+  address 10.20.30.100
+  netmask 255.255.255.0
+  gateway 10.20.30.1
+  # Required for Vagrant
+  post-up ip link set promisc on dev eth1
+
+source /etc/network/interfaces.d/*.cfg

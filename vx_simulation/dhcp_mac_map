@@ -1,0 +1,14 @@
+leaf01,eth0,44:38:39:00:00:0a
+leaf01,swp10,44:38:39:00:00:04
+leaf02,eth0,44:38:39:00:00:08
+leaf02,swp10,44:38:39:00:00:02
+oob-mgmt-server,eth1,44:38:39:00:00:06
+oob-mgmt-switch,swp1,44:38:39:00:00:05
+oob-mgmt-switch,swp2,44:38:39:00:00:07
+oob-mgmt-switch,swp3,44:38:39:00:00:09
+oob-mgmt-switch,swp4,44:38:39:00:00:0b
+oob-mgmt-switch,swp5,44:38:39:00:00:0d
+server01,eth0,44:38:39:00:00:0e
+spine01,eth0,44:38:39:00:00:0c
+spine01,swp1,44:38:39:00:00:03
+spine01,swp2,44:38:39:00:00:01
